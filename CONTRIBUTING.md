@@ -1,13 +1,13 @@
 # Introduction
 
 Welcome to the chives-blockchain project!
-We are happy that you are taking a look at the code for Chia, a proof of space and time cryptocurrency.
+We are happy that you are taking a look at the code for Chives, a proof of space and time cryptocurrency.
 
 A lot of fascinating new cryptography and blockchain concepts are used and implemented here.
 This repo includes the code for the Chives full node, farmer, and timelord (in chives folder), which are all written in python.
 It also includes a verifiable delay function implementation that it imports from the [chiavdf repo](https://github.com/HiveProject2021/chiavdf) (in c/c++), and a proof of space implementation that it imports from the [chiapos repo](https://github.com/HiveProject2021/chiapos). BLS signatures are imported from the [bls-signatures repo](https://github.com/HiveProject2021/bls-signatures) as blspy. There is an additional dependency on the [chiabip158 repo](https://github.com/HiveProject2021/chiabip158). For major platforms, binary and source wheels are shipped to PyPI from each dependent repo. Then chives-blockchain can pip install those from PyPI or they can be prepackaged as is done for the Windows installer. On unsupported platforms, pip will fall back to the source distributions, to be compiled locally.
 
-If you want to learn more about this project, read the [wiki](https://github.com/HiveProject2021/chives-blockchain/wiki), or check out the [green paper](https://www.chivescoin.org/assets/ChiaGreenPaper.pdf).
+If you want to learn more about this project, read the [wiki](https://github.com/HiveProject2021/chives-blockchain/wiki), or check out the [green paper](https://www.chivescoin.org/greenpaper/).
 
 ## Contributions
 
@@ -15,17 +15,14 @@ Please review this [diagram](https://drive.google.com/file/d/1r7AXTrj7gtD0Xy-9Bt
 
 We would be pleased to accept code contributions to this project.
 As we have now released, the main priority is improving the mainnet blockchain.
-You can visit our [Trello project board](https://trello.com/b/ZuNx7sET) to get a sense of what is in the backlog.
-Generally, things to the left are in progress or done. Some things go through "Coming up soon", but some will come directly out of other columns.
-Usually, the things closer to the top of each column are the ones that will be worked on soonest.
 If you are interested in cryptography, math, or just like hacking in python, there are many interesting problems to work on.
-Contact any of the team members on [Keybase](https://keybase.io/team/chives_network.public), which we use as the main communication method. You can also comment on any Trello card.
+Contact any of the team members on [Discord](https://discord.gg/9aAbYNqjtA), which we use as the main communication method.
 
 We ask that external contributors create a fork of the `main` branch for any feature work they wish to take on.
 
 Members of the Chives organization may create feature branches from the `main` branch.
 
-In the event an emergency fix is required for the release version of Chia, members of the Chives organization will create a feature branch from the current release branch `1.0.0`.
+In the event an emergency fix is required for the release version of Chives, members of the Chives organization will create a feature branch from the current release branch `1.0.0`.
 
 ## Branching Strategy
 
@@ -99,7 +96,7 @@ If you are not a Chives organization member, you can enquire about deploying a `
 
 To propose changes, please make a pull request to the `main` branch. See Branching Strategy above.
 
-To propose changes for the production releases of Chia, please make a pull request to the latest release branch.
+To propose changes for the production releases of Chives, please make a pull request to the latest release branch.
 
 ## Copyright
 
